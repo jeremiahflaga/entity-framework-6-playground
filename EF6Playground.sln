@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF6Playground", "EF6Playground\EF6Playground.csproj", "{DE24F5EC-B5B3-4A6C-B14F-84EAEF59AF40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF6Playground.Tests", "EF6Playground.Tests\EF6Playground.Tests.csproj", "{87E9F602-A352-4766-8D47-440BFA58EEBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE24F5EC-B5B3-4A6C-B14F-84EAEF59AF40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE24F5EC-B5B3-4A6C-B14F-84EAEF59AF40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE24F5EC-B5B3-4A6C-B14F-84EAEF59AF40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE24F5EC-B5B3-4A6C-B14F-84EAEF59AF40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E9F602-A352-4766-8D47-440BFA58EEBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E9F602-A352-4766-8D47-440BFA58EEBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E9F602-A352-4766-8D47-440BFA58EEBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E9F602-A352-4766-8D47-440BFA58EEBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B312C506-EA58-4E5C-A493-5E719E69167E}
+	EndGlobalSection
+EndGlobal
