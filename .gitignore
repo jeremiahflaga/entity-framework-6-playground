@@ -252,8 +252,8 @@ ServiceFabricBackup/
 *.rptproj.bak
 
 # SQL Server files
-*.mdf
-*.ldf
+#*.mdf # include SQL Server files in this project because this is a playground for using an ORM
+#*.ldf
 *.ndf
 
 # Business Intelligence projects

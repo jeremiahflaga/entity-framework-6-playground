@@ -22,10 +22,10 @@ namespace EF6Playground.J_2020_02_09
 			};
 		}
 
-		public Guid Person1Id { get; set; }
-		public Guid Person2Id { get; set; }
+		public Guid Person1Id { get; protected set; }
+		public Guid Person2Id { get; protected set; }
 
-		public virtual Person Person1 { get; set; }
-		public virtual Person Person2 { get; set; }
+		public virtual Person PersonOne { get; protected set; }
+		public virtual Person PersonTwo { get; protected set; }
 	}
 }

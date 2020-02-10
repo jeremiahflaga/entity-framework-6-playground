@@ -16,6 +16,10 @@ namespace EF6Playground.Tests
 			{
 				using (var context = new PeopleDbContext())
 				{
+					context.People.RemoveRange(context.People);
+					context.Friendships.RemoveRange(context.Friendships);
+					context.SaveChanges();
+
 					var person1 = Person.Create(Guid.NewGuid());
 					var person2 = Person.Create(Guid.NewGuid());
 
@@ -25,11 +29,13 @@ namespace EF6Playground.Tests
 					context.SaveChanges();
 
 					var result = context.Friendships.ToList();
+					var people = context.People.ToList();
 				}
 
 			}
 			catch (Exception ex)
 			{
+				var error = ex.InnerException?.Message;
 				throw;
 			}
 		}
