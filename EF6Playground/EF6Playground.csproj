@@ -51,6 +51,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="2020-02-17-one-to-many-one-to-one-2\PeopleDbContext.cs" />
+    <Compile Include="2020-02-17-one-to-many-one-to-one-2\Person.cs" />
+    <Compile Include="2020-02-17-one-to-many-one-to-one-2\PersonDetailOneToMany.cs" />
     <Compile Include="2020-02-17-one-to-many-one-to-one\PersonDetailOneToMany.cs" />
     <Compile Include="2020-02-17-one-to-many-one-to-one\PeopleDbContext.cs" />
     <Compile Include="2020-02-17-one-to-many-one-to-one\Person.cs" />
@@ -60,6 +63,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="2020-02-17-one-to-many-one-to-one-2\add-PersonDetailId-column-in-principal-table.sql" />
     <Content Include="2020-02-17-one-to-many-one-to-one\add-UniquePersonId-column-in-dependent-table.sql" />
   </ItemGroup>
   <ItemGroup>

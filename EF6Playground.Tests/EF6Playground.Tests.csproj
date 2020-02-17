@@ -72,6 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="2020-02-09-invalid-column-name-_ID\PeopleDbContextTests.cs" />
+    <Compile Include="2020-02-17-one-to-many-one-to-one-2\PeopleDbContextTests.cs" />
     <Compile Include="2020-02-17-one-to-many-one-to-one\PeopleDbContextTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -95,6 +96,13 @@
     <Content Include="2020-02-09-invalid-column-name-_ID\PeopleDb_2020-02-09_log.ldf">
       <DependentUpon>PeopleDb_2020-02-09.mdf</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020-02-17-one-to-many-one-to-one-2\PeopleDb_2020-02-17-Two.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020-02-17-one-to-many-one-to-one-2\PeopleDb_2020-02-17-Two_log.ldf">
+      <DependentUpon>PeopleDb_2020-02-17-Two.mdf</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="2020-02-17-one-to-many-one-to-one\PeopleDb_2020-02-17.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
