@@ -51,12 +51,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="2020-02-17-one-to-many-one-to-one\PersonDetailOneToMany.cs" />
+    <Compile Include="2020-02-17-one-to-many-one-to-one\PeopleDbContext.cs" />
+    <Compile Include="2020-02-17-one-to-many-one-to-one\Person.cs" />
     <Compile Include="2020-02-09-invalid-column-name-_ID\Friendship.cs" />
     <Compile Include="2020-02-09-invalid-column-name-_ID\Person.cs" />
     <Compile Include="2020-02-09-invalid-column-name-_ID\PeopleDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="2020-02-17-one-to-many-one-to-one\add-UniquePersonId-column-in-dependent-table.sql" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />

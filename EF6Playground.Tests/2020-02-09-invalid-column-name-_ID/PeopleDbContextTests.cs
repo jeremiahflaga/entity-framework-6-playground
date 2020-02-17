@@ -5,7 +5,7 @@ using EF6Playground.J_2020_02_09;
 using Effort;
 using Xunit;
 
-namespace EF6Playground.Tests
+namespace EF6Playground.J_2020_02_09.Tests
 {
 	public class UnitTest1
 	{
